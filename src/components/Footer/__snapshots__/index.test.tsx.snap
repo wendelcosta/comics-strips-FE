@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Test Loads Footer 1`] = `
+<div>
+  <footer
+    class="makeStyles-footer-1"
+  >
+    <p>
+      Copyright 
+      2020
+       © Wendel Costa
+    </p>
+  </footer>
+</div>
+`;

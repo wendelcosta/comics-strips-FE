@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Test Loads App 1`] = `
+<div>
+  <header
+    class="makeStyles-header-1"
+  >
+    <h1>
+      Comics xkcd - Brought to you by Wendel Costa
+    </h1>
+  </header>
+  <div
+    class="MuiContainer-root-2 MuiContainer-maxWidthLg-8"
+    style="min-height: 100%; margin-bottom: 30px;"
+  >
+    <div
+      class="MuiGrid-root-13 makeStyles-gridContainer-10 MuiGrid-container-14 MuiGrid-spacing-xs-3-38"
+    >
+      <div
+        class="makeStyles-loaderWrapper-11"
+      >
+        <div
+          class="MuiCircularProgress-root-145 MuiCircularProgress-colorPrimary-148 MuiCircularProgress-indeterminate-147"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg-150"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle-151 MuiCircularProgress-circleIndeterminate-153"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    class="makeStyles-footer-144"
+  >
+    <p>
+      Copyright 
+      2020
+       © Wendel Costa
+    </p>
+  </footer>
+</div>
+`;

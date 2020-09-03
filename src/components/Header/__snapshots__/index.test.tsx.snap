@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Test Loads Header 1`] = `
+<div>
+  <header
+    class="makeStyles-header-1"
+  >
+    <h1>
+      Comics xkcd - Brought to you by Wendel Costa
+    </h1>
+  </header>
+</div>
+`;

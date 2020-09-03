@@ -1,0 +1,3 @@
+export const GET_COMICS = 'GET_COMICS'
+export const GET_COMICS_ERROR = 'GET_COMICS_ERROR'
+export const GET_COMICS_SUCCESS = 'GET_COMICS_SUCCESS'

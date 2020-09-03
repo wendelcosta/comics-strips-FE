@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Test Loads Card 1`] = `
+<div>
+  <div
+    class="MuiPaper-root makeStyles-papers-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <img
+      alt="cards"
+      class="makeStyles-papers-1"
+      data-testid="card"
+      src="test"
+    />
+  </div>
+</div>
+`;
