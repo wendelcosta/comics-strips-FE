@@ -13,18 +13,9 @@ axios.defaults.baseURL =
 const getComics = (): Promise<any> => {
   // const url = 'http://localhost:3000/dev/comics' // TODO: use local env to select from BE localhost or live API
   const url = '/comics'
-  const header = {
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Credentials': 'true',
-      'Access-Control-Allow-Headers':
-        'apikey, Authorization, Content-Type, Content-Length, X-Storage-Manager-OTP',
-      'Access-Control-Allow-Methods':
-        'GET, PUT, POST, DELETE, OPTIONS, HEAD, CONNECT, TRACE, PATCH',
-    },
-  }
+
   return axios
-    .get(url, header)
+    .get(url)
     .then((response) => ({
       response,
     }))
