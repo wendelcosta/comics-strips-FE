@@ -6,10 +6,16 @@ import TestWrapper from '../TestWrapper'
 export default {
   title: 'Footer',
   component: Footer,
+  argTypes: {
+    text: { control: 'text' },
+  },
 }
 
-export const Default = (): any => (
+export const Default = (args: Record<string, string>): any => (
   <TestWrapper>
-    <Footer />
+    <Footer text={args.text} {...args} />
   </TestWrapper>
 )
+Default.args = {
+  text: 'Copyright Wendel Costa',
+}

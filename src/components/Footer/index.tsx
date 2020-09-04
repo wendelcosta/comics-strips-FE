@@ -12,12 +12,19 @@ const useStyles = makeStyles((theme) =>
   })
 )
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  text: string
+}
+
+const Footer: React.FC<FooterProps> = ({ text }) => {
   const classes = useStyles()
   const fullYear = new Date().getFullYear()
   return (
     <footer className={classes.footer}>
-      <p>Copyright {fullYear} &copy; Wendel Costa</p>
+      <p>
+        {' '}
+        {fullYear} &copy; {text}
+      </p>
     </footer>
   )
 }

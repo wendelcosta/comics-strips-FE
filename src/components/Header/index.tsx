@@ -15,11 +15,15 @@ const useStyles = makeStyles((theme) =>
   })
 )
 
-const Header: React.FC = () => {
+interface HeaderProps {
+  text: string
+}
+
+const Header: React.FC<HeaderProps> = ({ text }) => {
   const classes = useStyles()
   return (
     <header className={classes.header}>
-      <h1>Comics xkcd - Brought to you by Wendel Costa</h1>
+      <h1>{text}</h1>
     </header>
   )
 }

@@ -39,7 +39,7 @@ const App: React.FC = () => {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <ScrollToTop />
-        <Header />
+        <Header text="Comics xkcd - Brought to you by Wendel Costa" />
         <Container
           style={{ minHeight: '100%', marginBottom: 30 }}
           maxWidth="lg"
@@ -60,7 +60,7 @@ const App: React.FC = () => {
             </Route>
           </Switch>
         </Container>
-        <Footer />
+        <Footer text="Copyright Wendel Costa" />
       </ThemeProvider>
     </>
   )
