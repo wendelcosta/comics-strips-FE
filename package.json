@@ -1,7 +1,6 @@
 {
-  "name": "my-app",
+  "name": "comics-fe",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@redux-saga/core": "^1.1.3",
