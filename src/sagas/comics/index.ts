@@ -7,11 +7,21 @@ import {
   GET_COMICS_SUCCESS,
 } from '../../actions/actionTypes'
 
+axios.defaults.baseURL =
+  'https://22dz8fhsfk.execute-api.ap-southeast-2.amazonaws.com/dev'
+
 const getComics = (): Promise<any> => {
   // const url = 'http://localhost:3000/dev/comics' // TODO: use local env to select from BE localhost or live API
   const url = '/comics'
   const header = {
-    headers: { 'Access-Control-Allow-Origin': '*' },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Credentials': 'true',
+      'Access-Control-Allow-Headers':
+        'apikey, Authorization, Content-Type, Content-Length, X-Storage-Manager-OTP',
+      'Access-Control-Allow-Methods':
+        'GET, PUT, POST, DELETE, OPTIONS, HEAD, CONNECT, TRACE, PATCH',
+    },
   }
   return axios
     .get(url, header)
