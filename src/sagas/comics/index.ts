@@ -8,7 +8,7 @@ import {
 } from '../../actions/actionTypes'
 
 axios.defaults.baseURL =
-  'https://22dz8fhsfk.execute-api.ap-southeast-2.amazonaws.com/dev'
+  'https://rwu38fvxlh.execute-api.ap-southeast-2.amazonaws.com/dev'
 
 const getComics = (): Promise<any> => {
   // const url = 'http://localhost:3000/dev/comics' // TODO: use local env to select from BE localhost or live API
