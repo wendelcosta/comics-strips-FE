@@ -9,7 +9,7 @@ describe('Footer Test', () => {
   test('Loads Footer', () => {
     const { container } = render(
       <TestWrapper>
-        <Footer />
+        <Footer text="Copyright Wendel Costa" />
       </TestWrapper>
     )
 

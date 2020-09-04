@@ -45,9 +45,10 @@ exports[`App Test Loads App 1`] = `
     class="makeStyles-footer-144"
   >
     <p>
-      Copyright 
+       
       2020
-       © Wendel Costa
+       © 
+      Copyright Wendel Costa
     </p>
   </footer>
 </div>

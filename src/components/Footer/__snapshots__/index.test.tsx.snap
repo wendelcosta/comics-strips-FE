@@ -6,9 +6,10 @@ exports[`Footer Test Loads Footer 1`] = `
     class="makeStyles-footer-1"
   >
     <p>
-      Copyright 
+       
       2020
-       © Wendel Costa
+       © 
+      Copyright Wendel Costa
     </p>
   </footer>
 </div>

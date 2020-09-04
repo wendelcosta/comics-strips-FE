@@ -9,7 +9,7 @@ describe('Header Test', () => {
   test('Loads Header', () => {
     const { container } = render(
       <TestWrapper>
-        <Header />
+        <Header text="Comics xkcd - Brought to you by Wendel Costa" />
       </TestWrapper>
     )
 
