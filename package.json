@@ -37,6 +37,7 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
+  "proxy": "https://22dz8fhsfk.execute-api.ap-southeast-2.amazonaws.com/dev",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "prettier --write",

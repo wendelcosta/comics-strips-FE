@@ -8,9 +8,13 @@ import {
 } from '../../actions/actionTypes'
 
 const getComics = (): Promise<any> => {
-  const url = 'http://localhost:3000/dev/comics'
+  // const url = 'http://localhost:3000/dev/comics' // TODO: use local env to select from BE localhost or live API
+  const url = '/comics'
+  const header = {
+    headers: { 'Access-Control-Allow-Origin': '*' },
+  }
   return axios
-    .get(url)
+    .get(url, header)
     .then((response) => ({
       response,
     }))
